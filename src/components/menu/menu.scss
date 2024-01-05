@@ -1,0 +1,61 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+    .back{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 400px;
+        background-image: linear-gradient(0deg,#161616, black);
+        border: 10px;
+        border-color: white;
+        z-index: 999;
+
+        .links{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            align-items: left;
+            justify-content: top;
+            padding: 50px;
+            padding-top: 150px;
+            gap: 20px;
+            
+            a{
+                font-size: 40px;
+            }
+
+            a:hover{
+                color: darkslateblue;
+                cursor: pointer;
+            }
+
+        }
+    }
+
+    button{
+        color: white;
+        position: fixed;
+        border-radius: 50%;
+        top: 20px;
+        left: 20px;
+        width: 60px;
+        height: 60px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 999;
+    }
+
+    button:hover{
+        color: darkslateblue;
+    }
+}
