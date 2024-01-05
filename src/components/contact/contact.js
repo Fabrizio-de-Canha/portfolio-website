@@ -5,11 +5,14 @@ import { motion } from "framer-motion";
 const variants = {
   initial: {
     opacity: 0,
+    y: 500,
   },
   animate: {
     opacity: 1,
+    y: 0,
     transition: {
-      duration: 1
+      duration: 0.5,
+      staggerChildren: 0.1
     },
   },
 };
@@ -21,7 +24,7 @@ const footerVariant = {
   animate: {
     opacity: 0.6,
     transition: {
-      duration: 2
+      duration: 0.5
     },
   },
 };
