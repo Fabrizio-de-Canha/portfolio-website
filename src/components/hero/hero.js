@@ -44,15 +44,17 @@ const Hero = () => {
           <motion.h2 variants={textVariants}>FABRIZIO DE CANHA</motion.h2>
           <motion.h1 variants={textVariants}>Full Stack Developer</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>My Work</motion.button>
-            <motion.button variants={textVariants}>Contact</motion.button>
+            <motion.a href={`#Projects`} variants={textVariants}>My Work</motion.a>
+            <motion.a href={`#Contact`} variants={textVariants}>Contact</motion.a>
+            <motion.a href={`#Skills`} variants={textVariants}>Experience</motion.a>
           </motion.div>
         </motion.div>
       </div>
-      <div>
+      {/* <div>
         <motion.button variants={textVariants}>My Work</motion.button>
         <motion.button variants={textVariants}>Contact</motion.button>
-      </div>
+        <motion.a variants={textVariants}>Experience</motion.a>
+      </div> */}
 
       <motion.div
         className="sliddingText"

@@ -1,0 +1,22 @@
+.treeContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .treeCircle{
+        background: darkslateblue;
+        border-radius: 50%;
+        width: 50%;
+        padding-top: 50%;
+    }
+
+    .treeRectangle{
+        flex: 0.3;
+        background: darkslateblue;
+        width: 10%;
+        padding-top: 50%;
+    }
+}

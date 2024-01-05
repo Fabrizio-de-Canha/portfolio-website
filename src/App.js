@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/navbar";
 import Hero from "./components/hero/hero";
 import Portfolio from "./components/portfolio/portfolio";
 import Contact from "./components/contact/contact";
+import CareerTree from "./components/career_tree/career";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Hero />
       </section>
       <section id="About Me">About Me</section>
-      <section id="Skills">Skills</section>
+      <section id="Skills"><CareerTree/></section>
       {/* <section id="Projects">Test</section> */}
       <div id="Projects">
         <Portfolio id="Projects"/>

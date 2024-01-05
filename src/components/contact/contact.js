@@ -5,14 +5,12 @@ import { motion } from "framer-motion";
 const variants = {
   initial: {
     opacity: 0,
-    y: 500,
   },
   animate: {
     opacity: 1,
-    y: 0,
     transition: {
       duration: 0.5,
-      staggerChildren: 0.1
+      staggerChildren: 0.15
     },
   },
 };

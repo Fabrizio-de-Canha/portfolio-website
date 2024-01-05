@@ -29,19 +29,26 @@
       }
 
       .buttons {
-        button {
-          border: 1px solid white;
-          padding: 20px;
-          border-radius: 5px;
-          background-color: transparent;
-          color: white;
-          margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        a{
+          display: block;
+          width: 160px;
+          border: 1px solid darkslateblue;
+          border-radius: 10px;
+          background-color: rgba(71, 61, 139, 0.4);
+          padding: 15px;
+          font-size: small;
+          text-align: center;
           cursor: pointer;
           font-weight: 300;
         }
-        button:hover {
-          color: darkslateblue;
+        a:hover {
+          color: white;
+          background: rgba(71, 61, 139, 0.8);
           border-color: darkslateblue;
+          scale: 1.1;
         }
       }
     }
